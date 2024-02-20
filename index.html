@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Discover Subash Kumar Shaw portfolio featuring creative web development projects and stunning digital artwork, crafted with passion and precision."
+    />
+    <meta
+      name="keywords"
+      content="graphic design, branding, digital art, web design, illustration, creative portfolio"
+    />
+    <meta name="author" content="Subash Kumar Shaw" />
+    <meta name="robots" content="index, follow" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <div class="menuWrapper">
+    <div class="sidebar" id="sidebar">
+      <ul class="menu">
+        <li class="menu-link"><a href="#" class="toggle-icon" onclick="toggleSidebar()"><i class="fa-solid fa-bars icon"></i></a>
+        </li>
+        <li class="menu-link"><a href="#" onclick="showContent('home')"><i class="fa-solid fa-house icon"></i><span class="linkname">Home</span></a></li>
+        <li class="menu-link"><a href="#" onclick="showContent('about')"><i class="fa-solid fa-id-card-clip icon"></i><span class="linkname">About</span></a></li>
+        <li class="menu-link"><a href="#" onclick="showContent('portfolio')"><i class="fa-regular fa-address-card icon"></i><span class="linkname">Portfolio</span></a></li>
+        <li class="menu-link"><a href="#" onclick="showContent('contact')"><i class="fa-solid fa-envelope icon"></i><span class="linkname">Contact</span></a></li>
+      </ul>
+    </div>
+
+    <div class="content" id="home">
+        <div class="intro">
+        <h2>I'm</h2>
+        <h1>Subash Kumar Shaw</h1>
+        <h3 class="title" id="autoTypeText"></h3>
+        <h5>Specializing in crafting responsive and interactive websites. I love creating captivating digital experiences.</h5>
+
+        <div class="classbox">
+            <a href="#" onclick="showContent('resume')" class="dwn-btn">View Resume</a>
+        </div>
+
+        </div>
+      
+
+    </div>
+
+    <div class="content" id="about" style="display: none">
+        <div class="aboutWrapper">
+        <div class="imgWrapper">
+        <img src="Pic.jpg" alt="pic" class="prof-pic" />
+        <div class="progress">
+            <div class="technique">
+              <h3>Html / CSS</h3>
+              <div><span style="width:83%">83% &nbsp;</span></div>
+            </div>
+            <div class="technique">
+                <h3>JavaScript</h3>
+                <div><span style="width:82%">82% &nbsp;</span></div>
+              </div>
+            <div class="technique">
+                <h3>ReactJS</h3>
+                <div><span style="width:80%">80% &nbsp;</span></div>
+              </div>
+              <div class="technique">
+                <h3>NextJS</h3>
+                <div><span style="width:75%">75% &nbsp;</span></div>
+              </div>
+              <div class="technique">
+                <h3>Redux</h3>
+                <div><span style="width:55%">55% &nbsp;</span></div>
+              </div>
+              <div class="technique">
+                <h3>React Bootstrap</h3>
+                <div><span style="width:90%">90% &nbsp;</span></div>
+              </div>
+            <div class="technique">
+              <h3>MySql</h3>
+              <div><span style="width:88%">88% &nbsp;</span></div>
+            </div>
+
+            <div class="technique">
+                <h3>Figma</h3>
+                <div><span style="width:88%">88% &nbsp;</span></div>
+              </div>
+              <div class="technique">
+                <h3>GIT</h3>
+                <div><span style="width:75%">75% &nbsp;</span></div>
+              </div>
+             
+          </div>
+    
+        </div>
+        <div class="contentWrapper">
+        <h2>About Me</h2>
+        <p>I'm Subash Kumar Shaw, a Software Engineer with three years of experience. I specialize in crafting responsive and interactive websites using React.js, CSS3, HTML5, Node.js, JavaScript, jQuery, Bootstrap, MySQL, and Figma.</p>
+        <section id="education" class="page">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>B.Tech/B.E. - 2019</h3>
+                <p>Punjab Technical University (PTU)</p>
+                <p>CGPA: 6.3/10</p>
+            </div>
+            <div class="education-item">
+                <h3>12th - 2015</h3>
+                <p>Bihar Board</p>
+                <p>Percentage: 65%</p>
+            </div>
+            <div class="education-item">
+                <h3>10th - 2013</h3>
+                <p>CBSE Board</p>
+                <p>CGPA: 6.8/10</p>
+            </div>
+        </section>
+        <section id="work-experience" class="page">
+            <h2>Work Experience</h2>
+            <div class="work-experience-item">
+                <h3>Aviansys Technologies Pvt. Ltd. | Bengaluru, IN</h3>
+                <h4>Software Engineer</h4>
+                <p>1st Sep 2022 - 30th Dec 2023</p>
+                <div class="project-description">
+                    <p>Developed a comprehensive Human Resource Management System utilizing modern web technologies to streamline HR processes and enhance organizational efficiency.</p>
+                    <p><strong>Responsibilities and Achievements:</strong></p>
+                    <ul class="points">
+                        <li>Implemented the project using Next.js, React, and Redux for a robust and scalable architecture.</li>
+                        <li>Served as a Full Stack Developer, contributing to both front-end and back-end development.</li>
+                        <li>Developed a responsive and user-friendly interface for HR tasks using React components.</li>
+                    </ul>
+                    <p><strong>Technology Stack:</strong> Next.js, React, Redux</p>
+                </div>
+            </div>
+            <div class="work-experience-item">
+                <h3>Augment Systems Pvt. Ltd. | New Delhi, IN</h3>
+                <h4>Web Developer</h4>
+                <p>1st Aug 2019 - 30th Nov 2021</p>
+                <p>I have successfully developed the frontend of Assignment Help websites for my current organization, leveraging skills in ReactJS, React Bootstrap, HTML, and CSS. These websites are designed to enable users to submit assignments and receive them within specified deadlines, along with associated assignment charges.</p>
+            </div>
+            <div class="work-experience-item">
+                <h3>Gritsa Technologies | Noida, Uttar Pradesh, IN</h3>
+                <h4>Web Developer - Internship</h4>
+                <p>12th Jul 2019 - 07th Aug 2019</p>
+            </div>
+        </section>
+        </div>
+        </div>
+    </div>
+
+    <div class="content" id="portfolio" style="display: none">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <div class="cardContainer">
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="dhrms.png" alt="cardImg" width="100%" height="200px"/>
+                    <h3>Card 1</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                  </div>
+           
+                  <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                  </div>
+              
+                  <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                  </div>
+              
+                  <div class="card">
+                    <h3>Card 4</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            <h3>Project 1</h3>
+            <p>Description of project 1...</p>
+            <a href="#" class="demo-link">View Demo</a>
+            <a href="#" class="repo-link">GitHub Repo</a>
+        </div>
+    </div>
+
+    <div class="content" id="contact" style="display: none">
+        <div class="contactWrap">
+          <section>
+    
+            <div class="section-header">
+              <div class="container">
+                <h2>Contact Me</h2>
+                <p></p>
+              </div>
+            </div>
+            
+            <div class="container">
+              <div class="row">
+                
+                <div class="contact-info">
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                      <i class="fas fa-home"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Address</h4>
+                      <p>LCH 19/190, Dalurbandh Colliery 8 No.<br/> New Centre Near Panchmukhi Hanuman Mandir,<br/> PO: Pandaveswar, PIN : 713346, <br/>District: Paschim Burdwan, West Bengal</p>
+                    </div>
+                  </div>
+                  
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Phone</h4>
+                      <p>8146725089</p>
+                    </div>
+                  </div>
+                  
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Email</h4>
+                     <p>subash.k.shaw@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="contact-form">
+                  <form action="" id="contact-form">
+                    <h3>Send Message</h3>
+                    <div class="input-box">
+                      <input type="text" required="true" name="">
+                      <span>Full Name</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <input type="email" required="true" name="">
+                      <span>Email</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <textarea required="true" name=""></textarea>
+                      <span>Type your Message...</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <input type="submit" value="Send" name="">
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+            </div>
+
+    </div>
+    <div class="content" id="resume" style="display: none">
+      <div class="resumeWrap">
+        <div class="left" >
+        <h2>Resume</h2>
+        <div class="classbox">
+        <a href="Resume.pdf" class="resume-link dwn-btn">Download Resume</a>
+        </div>
+
+        </div>
+        <div class="right">
+        <img src="Resume.jpg" alt="pic" class="cv-pic" />
+        </div>
+
+       
+</div>
+    </div>
+   <script>
+    function showContent(id) {
+    // Hide all content divs
+    var contents = document.getElementsByClassName('content');
+    for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = 'none';
+    }
+
+    // Show the selected content div
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+<script>
+function toggleSidebar() {
+    var sidebar = document.getElementById("sidebar");
+    var content = document.getElementsByClassName("content");
+    var linknames = document.getElementsByClassName("linkname");
+    if (sidebar.style.width === "5%") {
+        sidebar.style.width = "15%";
+        for (var i = 0; i < content.length; i++) {
+            content[i].style.width = "85%";
+        }
+        for (var i = 0; i < linknames.length; i++) {
+            linknames[i].style.visibility = "visible";
+        }
+    } else {
+        sidebar.style.width = "5%";
+        for (var i = 0; i < content.length; i++) {
+            content[i].style.width = "95%";
+        }
+        for (var i = 0; i < linknames.length; i++) {
+            linknames[i].style.visibility = "hidden";
+        }
+    }
+}
+
+   </script>
+
+   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  var text = "Software Engineer";
+  var typingSpeed = 100; // milliseconds between each letter when typing
+  var pauseDuration = 2000; // milliseconds to wait before erasing
+  var erasingSpeed = 50; // milliseconds between each letter when erasing
+  var element = document.getElementById("autoTypeText");
+  autoType(text, typingSpeed, pauseDuration, erasingSpeed, element);
+  setCursorPosition(element);
+});
+
+function autoType(text, typingSpeed, pauseDuration, erasingSpeed, element) {
+  var intervalId;
+  function typeText() {
+    var index = 0;
+    intervalId = setInterval(function() {
+      element.textContent += text[index++];
+      if (index === text.length) {
+        clearInterval(intervalId);
+        setTimeout(eraseText, pauseDuration);
+      }
+    }, typingSpeed);
+  }
+
+  function eraseText() {
+    var index = text.length - 1;
+    intervalId = setInterval(function() {
+      element.textContent = text.substring(0, index--);
+      if (index === -1) {
+        clearInterval(intervalId);
+        setTimeout(typeText, typingSpeed);
+      }
+    }, erasingSpeed);
+  }
+
+  typeText(); // Start typing initially
+}
+
+function setCursorPosition(element) {
+  if (element.setSelectionRange) {
+    element.focus();
+    element.setSelectionRange(0, 0);
+    element.style.caretColor = 'black'; // Set caret color
+  } else if (element.createTextRange) {
+    var range = element.createTextRange();
+    range.moveStart('character', 0);
+    range.select();
+  }
+}
+
+   </script>
+   
+  </body>
+</html>
